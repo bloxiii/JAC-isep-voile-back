@@ -1,0 +1,66 @@
+2024-03-27 19:33:47.329 CET [5260] LOG:  démarrage de PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit
+2024-03-27 19:33:47.335 CET [5260] LOG:  n'a pas pu lier IPv6 à l'adresse « ::1 » : Permission denied
+2024-03-27 19:33:47.336 CET [5260] LOG:  n'a pas pu lier IPv4 à l'adresse « 127.0.0.1 » : Permission denied
+2024-03-27 19:33:47.336 CET [5260] ATTENTION:  n'a pas pu créer le socket d'écoute pour « localhost »
+2024-03-27 19:33:47.336 CET [5260] FATAL:  n'a pas pu créer de socket TCP/IP
+2024-03-27 19:33:47.338 CET [5260] LOG:  le système de base de données est arrêté
+2024-03-27 19:34:04.518 CET [8676] LOG:  démarrage de PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit
+2024-03-27 19:34:04.524 CET [8676] LOG:  n'a pas pu lier IPv6 à l'adresse « ::1 » : Permission denied
+2024-03-27 19:34:04.525 CET [8676] LOG:  n'a pas pu lier IPv4 à l'adresse « 127.0.0.1 » : Permission denied
+2024-03-27 19:34:04.525 CET [8676] ATTENTION:  n'a pas pu créer le socket d'écoute pour « localhost »
+2024-03-27 19:34:04.525 CET [8676] FATAL:  n'a pas pu créer de socket TCP/IP
+2024-03-27 19:34:04.527 CET [8676] LOG:  le système de base de données est arrêté
+2024-03-27 19:37:00.209 CET [3612] LOG:  démarrage de PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit
+2024-03-27 19:37:00.215 CET [3612] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2024-03-27 19:37:00.215 CET [3612] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2024-03-27 19:37:00.271 CET [15832] LOG:  le système de bases de données a été arrêté à 2024-03-27 19:33:03 CET
+2024-03-27 19:37:00.291 CET [3612] LOG:  le système de bases de données est prêt pour accepter les connexions
+2024-03-27 19:37:23.809 CET [3612] LOG:  a reçu une demande d'arrêt rapide
+2024-03-27 19:37:23.813 CET [3612] LOG:  annulation des transactions actives
+2024-03-27 19:37:23.843 CET [3612] LOG:  processus en tâche de fond « logical replication launcher » (PID 18732) a quitté avec le code de sortie 1
+2024-03-27 19:37:23.847 CET [20756] LOG:  arrêt en cours
+2024-03-27 19:37:23.850 CET [20756] LOG:  début du checkpoint : shutdown immediate
+2024-03-27 19:37:23.874 CET [20756] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.028 s; sync files=2, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1572DE0, redo lsn=0/1572DE0
+2024-03-27 19:37:23.911 CET [3612] LOG:  le système de base de données est arrêté
+2024-03-27 19:37:27.232 CET [5016] LOG:  démarrage de PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit
+2024-03-27 19:37:27.238 CET [5016] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2024-03-27 19:37:27.238 CET [5016] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2024-03-27 19:37:27.298 CET [8588] LOG:  le système de bases de données a été arrêté à 2024-03-27 19:37:23 CET
+2024-03-27 19:37:27.337 CET [5016] LOG:  le système de bases de données est prêt pour accepter les connexions
+2024-03-27 19:37:32.701 CET [5016] LOG:  a reçu une demande d'arrêt rapide
+2024-03-27 19:37:32.705 CET [5016] LOG:  annulation des transactions actives
+2024-03-27 19:37:32.726 CET [5016] LOG:  processus en tâche de fond « logical replication launcher » (PID 17736) a quitté avec le code de sortie 1
+2024-03-27 19:37:32.728 CET [22352] LOG:  arrêt en cours
+2024-03-27 19:37:32.731 CET [22352] LOG:  début du checkpoint : shutdown immediate
+2024-03-27 19:37:32.751 CET [22352] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.023 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1572E58, redo lsn=0/1572E58
+2024-03-27 19:37:32.775 CET [5016] LOG:  le système de base de données est arrêté
+2024-04-13 16:31:35.056 CEST [9908] LOG:  démarrage de PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit
+2024-04-13 16:31:35.060 CEST [9908] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2024-04-13 16:31:35.060 CEST [9908] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2024-04-13 16:31:35.138 CEST [20136] LOG:  le système de bases de données a été arrêté à 2024-03-27 19:37:32 CET
+2024-04-13 16:31:35.189 CEST [9908] LOG:  le système de bases de données est prêt pour accepter les connexions
+2024-04-13 16:32:29.518 CEST [21072] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:32:38.194 CEST [17800] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:33:10.580 CEST [2400] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:33:13.920 CEST [11808] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:36:35.141 CEST [12388] LOG:  début du checkpoint : time
+2024-04-13 16:36:39.854 CEST [12388] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.685 s, sync=0.014 s, total=4.717 s; sync files=11, longest=0.004 s, average=0.002 s; distance=279 kB, estimate=279 kB; lsn=0/15B8AA0, redo lsn=0/15B8A68
+2024-04-13 16:36:54.468 CEST [11060] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:37:43.840 CEST [11196] FATAL:  le rôle « psql_data » n'existe pas
+2024-04-13 16:41:40.002 CEST [15024] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:46:55.256 CEST [11032] FATAL:  la base de données « enzol » n'existe pas
+2024-04-13 16:47:14.672 CEST [15620] FATAL:  le rôle « JAC » n'existe pas
+2024-04-13 16:47:53.053 CEST [7384] FATAL:  le rôle « admin » n'existe pas
+2024-04-13 16:48:03.657 CEST [3340] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:48:10.826 CEST [8220] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 16:48:27.902 CEST [8372] FATAL:  le rôle « enzo » n'existe pas
+2024-04-13 16:48:35.424 CEST [21796] FATAL:  le rôle « Admin » n'existe pas
+2024-04-13 16:48:48.866 CEST [14672] FATAL:  le rôle « postgres » n'existe pas
+2024-04-13 14:50:35.703 GMT [8268] FATAL:  invalid value for parameter "timezone_abbreviations": "Default"
+2024-04-13 16:51:35.682 CEST [16912] WARNING:  autovacuum worker took too long to start; canceled
+2024-04-13 14:51:35.717 GMT [3592] FATAL:  invalid value for parameter "timezone_abbreviations": "Default"
+2024-04-13 16:52:35.792 CEST [16912] WARNING:  autovacuum worker took too long to start; canceled
+2024-04-13 14:52:35.830 GMT [12396] LOG:  could not open directory "C:/Program Files/PostgreSQL/16/share/timezone": No such file or directory
+2024-04-13 14:52:35.831 GMT [12396] LOG:  could not open directory "C:/Program Files/PostgreSQL/16/share/timezone": No such file or directory
+2024-04-13 14:52:35.837 GMT [12396] FATAL:  could not open directory "C:/Program Files/PostgreSQL/16/share/timezonesets": No such file or directory
+2024-04-13 14:52:35.837 GMT [12396] HINT:  This may indicate an incomplete PostgreSQL installation, or that the file "C:/Program Files/PostgreSQL/16/bin/postgres.exe" has been moved away from its proper location.
